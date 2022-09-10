@@ -235,6 +235,7 @@ model m = new model();
     private void btnsimpanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsimpanActionPerformed
         try {
             m.Simpan(this);
+            m.Reset(this);
         } catch (Exception e) {
            
         }
