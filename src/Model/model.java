@@ -38,5 +38,11 @@ public class model implements controller {
            System.out.println(e);
              }
     }
+
+    @Override
+    public void Reset(tampilan t) throws SQLException {
+        t.txtname.setText("");
+        
+    }
     
 }
